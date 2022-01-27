@@ -1,0 +1,15 @@
+/****************************************************************************************
+ * TODO: Write the css part for the whole program you lazy asshole!
+ ****************************************************************************************/
+
+ @font-face {
+  font-family: 'MisakiGothic', monospace;
+  src: url(Font/misaki_gothic.ttf) format('truetype');
+}
+
+ h1, p{
+   color:red;
+   text-align: center;
+   font-family: 'MisakiGothic', monospace;
+   
+ }
