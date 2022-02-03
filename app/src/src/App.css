@@ -1,0 +1,80 @@
+/****************************************************************************************
+ * TODO: Write the css part for the whole program you lazy asshole!
+ ****************************************************************************************/
+
+ @font-face {
+  font-family: 'MisakiGothic', monospace;
+  src: url(Font/misaki_gothic.ttf) format('truetype');
+}
+
+/*  body{
+   background-image: url('./pictures/ggha5y9xe1q51.png');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ }
+*/
+
+ h1{
+   color:red;
+   text-align: center;
+   font-family: 'MisakiGothic', monospace;
+   font-size: 40px;
+   
+ }
+
+  h2{
+    color: palevioletred;
+    font-family: 'MisakiGothic', monospace;
+    font-size: 30px;
+  }
+
+  #home_table{
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+ tr{
+   color: blue;
+   text-align: center;
+   font-family: 'MisakiGothic', monospace;
+   font-size: 25px;
+ }
+
+ table {
+  border: 3px solid rgb(130, 83, 218);
+  background-color:rgb(130, 83, 218);
+}
+
+ td, th {
+  border: 1px solid rgb(163, 0, 228); 
+  background-color:rgb(255, 255, 255);
+}
+/*
+ form {
+  background-color: #caacda;
+  border: 1px solid rgb(200, 150, 219); 
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: 200;
+  padding: 15px;
+  width: 330px;
+}
+*/
+input{
+  padding: 30px;
+  width: 200px;
+  height: 10px;
+  padding-bottom: 10px;
+  font-family: 'MisakiGothic', monospace;
+  font-size: 25px;
+}
+
+button{
+  padding: 50;
+  width: 100px;
+  height: 25px;
+  padding-bottom: 20px;
+  font-family: 'MisakiGothic', monospace;
+  font-size: 20px;
+}
